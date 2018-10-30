@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { CollectionComponent } from './collection/collection.component';
 import { CandyLogComponent } from './candy-log/candy-log.component';
 import { BonbonlogService } from './bonbonlog.service';
 import { HttpModule } from '@angular/http';
@@ -28,14 +27,12 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    navbarmenu,
     CandyLogComponent,
     AppComponent,
     CollectionComponent,
     ChasseComponent,
     NavbarComponent,
-    VitrineComponent
-    CollectionComponent,
+    VitrineComponent,
     CandyLogComponent
   ],
   imports: [
