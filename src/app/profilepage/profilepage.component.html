@@ -1,0 +1,13 @@
+<!-- <div>
+  firstname: {{ Users[0].profile.firstname }}
+  adress: {{ Users[0].profile.adress }}
+  IMAGE <img class="img-fluid col-6" src="{{Users[0].profile.photo }}">
+</div> -->
+<div class="card border-dark mb-3" style="width: 18rem;">
+  <img class="card-img-top" src="{{Users[0].profile.photo }}" alt="Card image cap">
+  <div class="card-body text-dark">
+    <h5 class="card-title">{{ Users[0].profile.firstname }}</h5>
+    <p class="card-text">{{ Users[0].profile.adress }}</p>
+    <a href="#" class="btn btn-primary">Go to my collection</a>
+  </div>
+</div>
