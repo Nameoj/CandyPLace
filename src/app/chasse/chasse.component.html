@@ -1,0 +1,19 @@
+<ul *ngFor="let vitrine of Users">
+  <li class="container">
+  	<div class="row col-6">
+  		<img class="photoprofil col-4" src="{{ vitrine.profile.photo }}">
+  		<div class="col-4">
+		    <p class="col-12">First Name : {{ vitrine.profile.firstname }}</p>
+		    <p class="col-12">Last Name : {{ vitrine.profile.lastname }}</p>
+	    </div>	    
+	</div>
+    <ul *ngFor="let bonbon of vitrine.vitrine">
+    	<li>
+    		<p>{{bonbon.name}}</p>
+    		<p>{{bonbon.quantity}}</p>
+    		<img src="{{bonbon.image}}">
+    	</li>
+    </ul>
+    <span>Where to find these candies ?</span><a target="_blank" href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}"><img src="../assets/marker-map.jpg"></a>
+  </li>
+</ul>
