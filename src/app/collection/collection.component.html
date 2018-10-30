@@ -1,7 +1,21 @@
-<ul *ngFor="let oneCollection of Users[varUser].collection">
-  <li>
-    NAME :{{ oneCollection.name }}
-    QUANTITY {{ oneCollection.quantity }}
-    IMAGE <img class="img-fluid col-6" src="{{oneCollection.image }}">
-  </li>
-</ul>
+<div class="container-fluid body">
+  <div class="row">
+    <ul *ngFor="let oneCollection of Users[varUser].collection">
+      <li>
+
+        <div class="card collectionCard" style="width: 18rem;">
+
+          <div class="card-body float-right collectionCardBody">
+            <h1>{{ oneCollection.name }} </h1>
+            <h2>Quantité : {{ oneCollection.quantity }}</h2>
+          </div>
+
+          <img src="{{oneCollection.image }}">
+
+
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</div>
