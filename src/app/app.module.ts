@@ -15,6 +15,7 @@ const appRoutes: Routes = [
 {path: 'hunt', component: ChasseComponent},
 {path: 'collection', component: CollectionComponent},
 {path: 'showcase', component: VitrineComponent},
+{path: 'candylog', component: CandyLogComponent},
 { path: '',
     redirectTo: '/collection',
     pathMatch: 'full'
@@ -25,7 +26,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    CandyLogComponent
+    CandyLogComponent,
     AppComponent,
     CollectionComponent,
     ChasseComponent,
@@ -35,8 +36,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpModule,
-    HttpClientModule
-    RouterModule.forRoot(appRoutes),
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     BonbonlogService,
