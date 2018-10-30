@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 @import '~bootstrap/dist/css/bootstrap.min.css'
+=======
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Eater');
+@import "~font-awesome/css/font-awesome.css";
+
+
+
+h2 {
+  font-family: "Eater", cursive;
+}
+
+>>>>>>> 032a0fa1847a168a7e028c026da1b576184d3185
