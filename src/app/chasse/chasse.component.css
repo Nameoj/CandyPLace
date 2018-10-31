@@ -12,7 +12,15 @@
 	margin-top: 0%;
 	margin-bottom: 0%;
 	overflow: hidden;
-	background: url('https://i.pinimg.com/originals/9b/40/53/9b40535866e783e7f6e09a722f5ad800.jpg') no-repeat center fixed
+	background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* padding-top: 10px; */
+	margin: 0 auto; /* Added */
+	overflow: hidden;
+	padding: 5%;
+	margin-bottom: -100px;
 }
 .name {
 	width: 100%;
