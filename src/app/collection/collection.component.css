@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+.body {
+  background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 10px;
+}
+
+.collectionCard {
+  height: 210px;
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.collectionCard img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+  border-radius: 10px;
+}
+
+.collectionCardBody {
+  float: right;
+  width: 50%;
+}
