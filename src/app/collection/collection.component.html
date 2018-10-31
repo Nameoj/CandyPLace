@@ -1,9 +1,10 @@
-
-
 <div class="container-fluid body">
   <h2 class="text-center">Ma collection</h2>
+
+
+  
   <div class="row">
-    <ul *ngFor="let oneCollection of Users[varUser].collection">
+    <ul *ngFor="let oneCollection of Users[varUser].collection; let i=index">
       <li>
 
         <div class="card collectionCard" style="width: 18rem;">
@@ -11,6 +12,9 @@
           <div class="card-body float-right collectionCardBody">
             <h3>{{ oneCollection.name }} </h3>
             <h4>Quantité : {{ oneCollection.quantity }}</h4>
+
+            <button type="button" class="btn btn-secondary" (click)="soustraire(i)">I eat one</button>
+
           </div>
 
           <img src="{{oneCollection.image }}">
@@ -22,4 +26,3 @@
     </ul>
   </div>
 </div>
-

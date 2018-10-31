@@ -1,0 +1,25 @@
+<div class="container" *ngIf="affichage">
+  <h2 class="text-center">CANDYLOG</h2>
+  <div *ngFor="let product of objectBonbon.products" class="col-12 candieImg mb-3">
+    <!--<h3>{{ product.product_name_fr }}</h3><p>Sucre: {{ product.nutriments.sugars }}</p><p>Graisse: {{ product.nutriments.fat_serving }}</p>
+    <p>Proteins: {{ product.nutriments.proteins_serving }}</p>
+    <img src="{{ product.image_small_url}}">-->
+    <!-- Search form -->
+    <!-- Search form -->
+
+    <ul>
+      <li [ngClass]="">
+        <div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img class="card-img-top" src="{{ product.image_small_url}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.product_name_fr }}</h5>
+            <!-- <p class="card-text">Sucre: {{ product.nutriments.sugars }}</p>
+          <p class="card-text">Graisse: {{ product.nutriments.fat_serving }}</p>
+          <p class="card-text">Proteins: {{ product.nutriments.proteins_serving }}</p>-->
+            <a href="#" class="btn btn-primary">More info</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
