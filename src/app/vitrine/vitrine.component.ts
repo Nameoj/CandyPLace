@@ -11,8 +11,18 @@ export class VitrineComponent implements OnInit {
   varUser;
   constructor(private profilesservices: ProfilesService) {}
 
+  soustraire(i){
+    this.profilesservices.Users[this.varUser].vitrine[i].quantity --;
+  }
+  ajouter(i){
+    this.profilesservices.Users[this.varUser].vitrine[i].quantity ++;
+  }
+
+
   ngOnInit() {
     this.Users = this.profilesservices.Users;
+
     this.varUser = this.profilesservices.varUser;
+
   }
 }

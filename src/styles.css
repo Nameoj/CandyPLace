@@ -1,12 +1,12 @@
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css?family=Eater');
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css?family=Eater");
 @import "~font-awesome/css/font-awesome.css";
 
 
 h1 {
   font-family: "Eater", cursive;
 }
+
 h2 {
   font-family: "Eater", cursive;
 }
-
