@@ -1,9 +1,17 @@
-<!-- <div>
-  firstname: {{ Users[0].profile.firstname }}
-  adress: {{ Users[0].profile.adress }}
-  IMAGE <img class="img-fluid col-6" src="{{Users[0].profile.photo }}">
-</div> -->
-<div class="card border-dark mb-3" style="width: 18rem;">
+<body>
+  <div class="fond">
+    <div class="text-center">
+      <img class="imageFond" src="{{Users[0].profile.photo }}">
+      <h2>{{ Users[0].profile.firstname }}</h2>
+      <div class="textProfile">
+        <h3>Mon adresse</h3>
+        <h4>{{ Users[0].profile.adress }}</h4>
+        <p class="lienModifier">Modifier</p>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- <div class="card border-dark mb-3" style="width: 18rem;">
   <img class="card-img-top" src="{{Users[0].profile.photo }}" alt="Card image cap">
   <div class="card-body text-dark">
     <h5 class="card-title">{{ Users[0].profile.firstname }}</h5>
@@ -11,3 +19,4 @@
     <a href="#" class="btn btn-primary">Go to my collection</a>
   </div>
 </div>
+ -->
