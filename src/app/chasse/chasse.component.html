@@ -1,0 +1,50 @@
+<div class="container-fluid">
+	<div class="row">
+
+		<div class="col-12">
+			<div *ngFor="let vitrine of Users">
+				<!-- <div class="container"> -->
+				<div class="card col-xs-3 col-sm-3 col-lg-3" style="border-radius: 20px">
+					<div class="row">
+						<!-- <div class="row col-6"> -->
+						<div class="col-md-12 col-sm-12">
+							<img class="photoprofil rounded-circle" src="{{ vitrine.profile.photo }}">
+							<!-- <div class="col-4"> -->
+							<h3 class="name"><strong>{{ vitrine.profile.firstname }} {{ vitrine.profile.lastname }}</strong></h3>
+							<!-- <h1 class="col-6">{{ vitrine.profile.lastname }}</h1> -->
+							<!-- </div>	 -->
+							<!-- </div> -->
+
+							<div *ngFor="let bonbon of vitrine.vitrine" style="display: inline">
+								<!-- <div class="col-4 full"> -->
+								<div class="container ">
+									<div class="row" style="float: left; display: block; word-wrap: break-word;">
+
+
+										<div class="col-lg-12 col-sm-12" style="width: 20vh;">
+
+
+											<img class="col-12 photobomb" style="word-wrap: break-word;" src="{{bonbon.image}}">
+											<!-- <div style="display:inline-block"> -->
+											<p class="col-10" style="font-size: 0.9em; margin-right: 0"><strong>{{bonbon.name}}</strong></p>
+											<p class="col-6" style="padding: 0 auto">{{bonbon.quantity}}</p>
+											<!-- </div> -->
+										</div>
+
+									</div>
+								</div>
+
+								<!-- 	</div> -->
+							</div>
+							<!-- <a target="_blank" href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}"><img
+								 src="../assets/marker-map.jpg"></a> -->
+							
+								<a href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}" class="btn btn-warning col-6 text-center"
+								 style="margin-bottom: 10px; margin-left:24%; text-align: center;">Let's meet us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
