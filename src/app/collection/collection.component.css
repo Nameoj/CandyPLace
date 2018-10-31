@@ -17,10 +17,14 @@ h4 {
 
 .body {
   background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  margin: 0 auto; /* Added */
+  overflow: hidden;
+  padding: 5%;
+  margin-bottom: -100px;
 }
 
 .collectionCard {
@@ -30,6 +34,7 @@ h4 {
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
+  
 }
 
 .collectionCard img {

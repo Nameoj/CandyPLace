@@ -16,4 +16,5 @@ export class CollectionComponent implements OnInit {
   ngOnInit() {
     this.Users = this.profilesservices.Users;
   }
+  
 }
