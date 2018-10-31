@@ -2,18 +2,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ProfilepageComponent } from "./profilepage/profilepage.component";
-import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
-import { CandyLogComponent } from './candy-log/candy-log.component';
-import { BonbonlogService } from './bonbonlog.service';
-import { HttpModule } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';
-import { CollectionComponent } from './collection/collection.component';
-import { ChasseComponent } from './chasse/chasse.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { VitrineComponent } from './vitrine/vitrine.component';
+
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { AppComponent } from "./app.component";
+import { CandyLogComponent } from "./candy-log/candy-log.component";
+import { BonbonlogService } from "./bonbonlog.service";
+import { HttpModule } from "@angular/http";
+import { HttpClientModule } from "@angular/common/http";
+import { CollectionComponent } from "./collection/collection.component";
+import { ChasseComponent } from "./chasse/chasse.component";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { VitrineComponent } from "./vitrine/vitrine.component";
 import { AccueilComponent } from './accueil/accueil.component';
-import { MapComponent } from './map/map.component';
+
+
 
 const appRoutes: Routes = [
 {path: 'hunt', component: ChasseComponent},
@@ -30,7 +34,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent,
     CollectionComponent,
     ChasseComponent,
     NavbarComponent,
