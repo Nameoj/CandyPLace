@@ -1,38 +1,49 @@
-.photoprofil{
-	width: 60%;
-	margin-top: 10%;
-	margin-bottom: 3%;
-	margin-left: 20%; /* Added */
-	margin-right: 50%; /* Added */
-	
+.photoprofil {
+  width: 60%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-left: 20%; /* Added */
+  margin-right: 50%; /* Added */
 }
 
 .container-fluid {
+
 	margin: 0; 
 	margin-top: 0%;
 	margin-bottom: 0%;
 	overflow: hidden;
-	background: url('https://i.pinimg.com/originals/9b/40/53/9b40535866e783e7f6e09a722f5ad800.jpg') no-repeat center fixed
+	background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* padding-top: 10px; */
+	margin: 0 auto; /* Added */
+	overflow: hidden;
+	padding: 5%;
+	margin-bottom: -100px;
+
 }
 .name {
-	width: 100%;
-	margin-bottom: 10%; 
-	text-align: center;
+  width: 100%;
+  margin-bottom: 10%;
+  text-align: center;
 }
 
 .photobomb {
-	width: 15vh;
-	height: 15vh;
+  width: 15vh;
+  height: 15vh;
 }
 
 .card {
-	margin: 0 auto; /* Added */
-	margin-bottom: 10px; /* Added */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto; /* Added */
+  margin-bottom: 10px; /* Added */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 a{
 	font-size: 0.7em;
 }
+
 
 .imgCar {
 	height: 35vh;
@@ -43,3 +54,4 @@ a{
 	margin-left: 30px;
 	margin-bottom: 10px;
 }
+

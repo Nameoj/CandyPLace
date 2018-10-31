@@ -1,45 +1,55 @@
 h2 {
-    font-size: 9vh;
+  font-size: 9vh;
+}
+
+.gris {
+  opacity: 0.35;
 }
 
 .candieImg img {
-    height: 200px;
-    width: 100%;
+  height: 200px;
+  width: 100%;
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .form-control {
-    float: none; /* Added */
-    margin-bottom: 10vh; /* Added */
-    margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  float: none; /* Added */
+  margin-bottom: 10vh; /* Added */
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.card-img-top{
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+.card-img-top {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 #candylog {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
 }
 
 .container {
+
     background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* padding-top: 10px; */
+  margin: 0 auto; /* Added */
+  overflow: hidden;
+  padding: 5%;
+  margin-bottom: -100px;
+
 }
 
 h2 {
-    color: white;
+  color: white;
 }
-

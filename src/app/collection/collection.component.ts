@@ -21,4 +21,5 @@ export class CollectionComponent implements OnInit {
     this.Users = this.profilesservices.Users;
     this.varUser = this.profilesservices.varUser;
   }
+  
 }

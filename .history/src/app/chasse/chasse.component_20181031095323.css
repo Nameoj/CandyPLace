@@ -1,0 +1,36 @@
+.photoprofil {
+  width: 60%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-left: 20%; /* Added */
+  margin-right: 50%; /* Added */
+}
+
+.container-fluid {
+  margin: 0;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  overflow: hidden;
+  background: url("https://i.pinimg.com/originals/9b/40/53/9b40535866e783e7f6e09a722f5ad800.jpg")
+    no-repeat center fixed;
+}
+.name {
+  width: 100%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.photobomb {
+  width: 15vh;
+  height: 15vh;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  margin-bottom: 10px; /* Added */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  font-size: 0.7em;
+}

@@ -1,33 +1,46 @@
-import { Component, OnInit } from '@angular/core';
-import { BonbonlogService } from '../bonbonlog.service';
+import { Component, OnInit } from "@angular/core";
+import { BonbonlogService } from "../bonbonlog.service";
 import { ActivatedRoute, ParamMap } from "@angular/router";
+import { ProfilesService } from "./../services/profiles.service";
 
 @Component({
-  selector: 'app-candy-log',
-  templateUrl: './candy-log.component.html',
-  styleUrls: ['./candy-log.component.css']
+  selector: "app-candy-log",
+  templateUrl: "./candy-log.component.html",
+  styleUrls: ["./candy-log.component.css"]
 })
 export class CandyLogComponent implements OnInit {
-
   objectBonbon: object[];
   affichage: boolean = false;
+  Users;
+  varUser = 0;
+  gris = true;
 
   constructor(
-    private service: BonbonlogService
-  ) { }
+    private service: BonbonlogService,
+    private profilesservices: ProfilesService
+  ) {}
 
   apiBonbec() {
     this.service.apiCall().subscribe((data: any) => {
       this.objectBonbon = data;
       this.affichage = true;
       console.log(this.objectBonbon);
-    })
-  }
-  
-
-  ngOnInit() { 
-    this.apiBonbec()
+    });
   }
 
+  ngOnInit() {
+    this.apiBonbec();
+    this.Users = this.profilesservices.Users;
+    this.varUser = this.profilesservices.varUser;
+  }
 
+  grisage(product) {
+    let gris = true;
+    this.Users[this.varUser].collection.forEach(bonbon => {
+      if (bonbon.name == product.product_name_fr) {
+        gris = false;
+      }
+    });
+    if (gris) return "gris";
+  }
 }
