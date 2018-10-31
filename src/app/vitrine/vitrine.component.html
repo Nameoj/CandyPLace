@@ -6,11 +6,13 @@
   </li>
 </ul> -->
 <div class="body">
-  <div *ngFor="let oneVitrine of Users[varUser].vitrine" class="card" style="width: 18rem; margin-bottom: 10%;">
+  <div *ngFor="let oneVitrine of Users[varUser].vitrine; let i=index" class="card" style="width: 18rem; margin-bottom: 10%;">
     <img class="card-img-top" src="{{oneVitrine.image }}" alt="Card image cap" style="height: 18rem; margin-bottom: 10%;">
     <div class="card-body" style="padding-top: 0">
       <h5 class="card-text"><strong>{{oneVitrine.name}}</strong></h5>
       <p class="card-text">quantity: {{oneVitrine.quantity}}</p>
+      <button type="button" class="btn btn-secondary" (click)="soustraire(i)">-</button>
+      <button type="button" class="btn btn-secondary" (click)="ajouter(i)">+</button>
     </div>
   </div>
 </div>
