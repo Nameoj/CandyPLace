@@ -11,11 +11,9 @@
 	margin: 0; 
 	margin-top: 0%;
 	margin-bottom: 0%;
-	
 	overflow: hidden;
 	background: url('https://i.pinimg.com/originals/9b/40/53/9b40535866e783e7f6e09a722f5ad800.jpg') no-repeat center fixed
 }
-
 .name {
 	width: 100%;
 	margin-bottom: 10%; 
@@ -23,8 +21,8 @@
 }
 
 .photobomb {
-	width: 150px;
-	height: 150px;
+	width: 15vh;
+	height: 15vh;
 }
 
 .card {
