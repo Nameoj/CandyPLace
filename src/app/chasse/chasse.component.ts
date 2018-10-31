@@ -13,8 +13,15 @@ export class ChasseComponent implements OnInit {
 
   constructor(private profilesservices: ProfilesService) {}
 
+  ajouter(image,name,quantity,i,j){
+    quantity = 1;
+    let objet = {image, name, quantity};
+    this.profilesservices.Users[this.varUser].collection.push(objet);
+    this.profilesservices.Users[i].vitrine[j].quantity --;
+  }
+
   ngOnInit() {
     this.Users = this.profilesservices.Users;
-    console.log(this.Users);
+    this.varUser = this.profilesservices.varUser;
   }
 }
