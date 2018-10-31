@@ -3,7 +3,9 @@
 @import "~font-awesome/css/font-awesome.css";
 
 
-
+h1 {
+  font-family: "Eater", cursive;
+}
 h2 {
   font-family: "Eater", cursive;
 }

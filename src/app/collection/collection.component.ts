@@ -10,10 +10,11 @@ export class CollectionComponent implements OnInit {
   // @Input()
   // Users;
   Users;
-  varUser = 0;
+  varUser;
   constructor(private profilesservices: ProfilesService) {}
 
   ngOnInit() {
     this.Users = this.profilesservices.Users;
+    this.varUser = this.profilesservices.varUser;
   }
 }

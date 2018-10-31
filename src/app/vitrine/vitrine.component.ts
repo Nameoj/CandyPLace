@@ -8,11 +8,11 @@ import { ProfilesService } from "./../services/profiles.service";
 })
 export class VitrineComponent implements OnInit {
   Users;
-  varUser = 0;
+  varUser;
   constructor(private profilesservices: ProfilesService) {}
 
   ngOnInit() {
     this.Users = this.profilesservices.Users;
-    console.log(this.Users);
+    this.varUser = this.profilesservices.varUser;
   }
 }

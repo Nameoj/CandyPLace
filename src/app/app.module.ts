@@ -10,16 +10,14 @@ import { CollectionComponent } from './collection/collection.component';
 import { ChasseComponent } from './chasse/chasse.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 const appRoutes: Routes = [
 {path: 'hunt', component: ChasseComponent},
 {path: 'collection', component: CollectionComponent},
 {path: 'showcase', component: VitrineComponent},
 {path: 'candylog', component: CandyLogComponent},
-{ path: '',
-    redirectTo: '/collection',
-    pathMatch: 'full'
-  }
+{path: '',component: AccueilComponent}
 ];
 
 
@@ -33,7 +31,8 @@ const appRoutes: Routes = [
     ChasseComponent,
     NavbarComponent,
     VitrineComponent,
-    CandyLogComponent
+    CandyLogComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
