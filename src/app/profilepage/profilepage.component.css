@@ -1,0 +1,46 @@
+body {
+  background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  height: 800px;
+}
+
+h2 {
+  color: white;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.imageFond {
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.textProfile {
+  background-color: white;
+  opacity: 0.75;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.lienModifier {
+  text-decoration: underline;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
