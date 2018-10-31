@@ -175,12 +175,6 @@ export class ProfilesService {
           quantity: 56,
           image:
             'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
-        },
-        {
-          name: 'BOO!',
-          quantity: 46,
-          image:
-            'https://static.openfoodfacts.org/images/products/26078014/front_fr.4.200.jpg'
         }
       ]
     },
