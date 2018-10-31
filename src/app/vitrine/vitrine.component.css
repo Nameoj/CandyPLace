@@ -1,0 +1,19 @@
+.card {
+   
+	margin: 0 auto; /* Added */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.body {
+    padding: 5%;
+    background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin-bottom: -100px;
+}
+
+img {
+    padding: 2%;
+}
