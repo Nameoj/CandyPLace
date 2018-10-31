@@ -9,6 +9,10 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  lat: number = 41.485818;
+  lng: number = 5.618187;
+  infoWindowOpened = null;
+
   ngOnInit() {
   }
 

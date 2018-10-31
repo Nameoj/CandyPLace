@@ -11,7 +11,9 @@ import { CollectionComponent } from "./collection/collection.component";
 import { ChasseComponent } from "./chasse/chasse.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { VitrineComponent } from "./vitrine/vitrine.component";
-import { MapComponent } from './map/map.component';
+
+
+
 
 const appRoutes: Routes = [
   { path: "hunt", component: ChasseComponent },
@@ -29,7 +31,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent,
     CollectionComponent,
     ChasseComponent,
     NavbarComponent,
