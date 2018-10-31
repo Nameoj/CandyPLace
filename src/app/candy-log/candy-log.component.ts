@@ -31,11 +31,12 @@ export class CandyLogComponent implements OnInit {
   ngOnInit() {
     this.apiBonbec();
     this.Users = this.profilesservices.Users;
+    this.varUser = this.profilesservices.varUser;
   }
 
   grisage(product) {
     let gris = true;
-    this.Users[0].collection.forEach(bonbon => {
+    this.Users[this.varUser].collection.forEach(bonbon => {
       if (bonbon.name == product.product_name_fr) {
         gris = false;
       }

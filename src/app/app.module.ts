@@ -22,6 +22,7 @@ const appRoutes: Routes = [
 {path: 'candylog', component: CandyLogComponent},
 { path: "profilepage", component: ProfilepageComponent },
 {path: '',component: AccueilComponent}
+];
 
 
 
@@ -34,7 +35,9 @@ const appRoutes: Routes = [
     ChasseComponent,
     NavbarComponent,
     VitrineComponent,
-    CandyLogComponent
+    CandyLogComponent,
+    AccueilComponent,
+    ProfilepageComponent
   ],
   imports: [
     BrowserModule,
