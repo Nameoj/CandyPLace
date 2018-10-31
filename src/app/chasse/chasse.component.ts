@@ -9,7 +9,7 @@ import { ProfilesService } from './../services/profiles.service';
 export class ChasseComponent implements OnInit {
 
 	Users;
-  varUser = 0;
+  varUser;
 
   constructor(private profilesservices: ProfilesService) {}
 
