@@ -1,4 +1,4 @@
-/* body {
+body {
   background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -6,15 +6,6 @@
   padding-top: 20px;
   text-align: center;
   height: 800px;
-} */
-
-.fond {
-  padding: 5%;
-    background-image: url(http://www.mobilopix.com/_data/i/upload/2014/12/02/20141202134727-ed29bf4b-me.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-margin-bottom: -100px;
 }
 
 h2 {
