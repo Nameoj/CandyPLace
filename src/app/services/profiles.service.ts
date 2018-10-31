@@ -14,54 +14,54 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'Kit Kat',
+          name: "Tagada l'originale",
           quantity: 3,
           image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/9574/front_fr.77.200.jpg'
         },
         {
-          name: 'Lindor 70% Cacao',
+          name: 'Chamallows Choco',
           quantity: 5,
           image:
-            'https://static.openfoodfacts.org/images/products/800/334/009/5370/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
         },
         {
-          name: 'Cerise à la liqueur',
+          name: 'Guimauve',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/201/995/829/9990/front_fr.16.200.jpg'
         },
         {
-          name: 'Ferrero Rocher',
+          name: 'Mini chupa chups',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/000/3787/front_en.52.200.jpg'
+            'https://static.openfoodfacts.org/images/products/460/179/803/0055/front_fr.3.200.jpg'
         },
         {
-          name: 'Avello Rochers',
+          name: 'Citrouille halloween assortiment de confiseries',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/358/840/025/9190/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/321/547/051/6938/front_fr.4.200.jpg'
         },
         {
-          name: 'Grand Ferrero Rocher',
+          name: 'Bonbons au miel Myrtille Framboise',
           quantity: 4,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/016/8554/front_en.23.200.jpg'
+            'https://static.openfoodfacts.org/images/products/326/362/275/9719/front_fr.4.200.jpg'
         }
       ],
       vitrine: [
         {
-          name: 'Cerise à la liqueur',
+          name: 'Chamallows Choco',
           quantity: 100,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
         },
         {
-          name: 'Mon Chéri Stern',
+          name: 'Citrouille halloween assortiment de confiseries',
           quantity: 167,
           image:
-            'https://static.openfoodfacts.org/images/products/400/840/011/2428/front_fr.10.200.jpg'
+            'https://static.openfoodfacts.org/images/products/321/547/051/6938/front_fr.4.200.jpg'
         }
       ]
     },
@@ -74,30 +74,30 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'FERRERO ROCHER Boîte de 30',
+          name: 'Haloween Party',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/016/7113/front_fr.18.200.jpg'
+            'https://static.openfoodfacts.org/images/products/23167308/front_fr.4.200.jpg'
         },
         {
-          name: 'Lindor 70% Cacao',
+          name: 'Cerise à la liqueur',
           quantity: 3,
           image:
-            'https://static.openfoodfacts.org/images/products/800/334/009/5370/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/26049472/front_fr.5.200.jpg'
         }
       ],
       vitrine: [
         {
-          name: 'Rocher - Chocolat au lait',
+          name: 'Haloween Party',
           quantity: 45,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/016/0466/front_fr.12.200.jpg'
+            'https://static.openfoodfacts.org/images/products/23167308/front_fr.4.200.jpg'
         },
         {
-          name: 'Lindor',
+          name: 'Cerise à la liqueur',
           quantity: 5,
           image:
-            'https://static.openfoodfacts.org/images/products/800/334/009/5356/front_fr.17.200.jpg'
+            'https://static.openfoodfacts.org/images/products/26049472/front_fr.5.200.jpg'
         }
       ]
     },
@@ -110,42 +110,42 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'Kit Kat',
+          name: 'Maltesers',
           quantity: 4,
           image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
+            'https://static.openfoodfacts.org/images/products/500/015/943/7943/front_fr.19.200.jpg'
         },
         {
-          name: 'Cerise à la liqueur',
+          name: 'Dragolo',
           quantity: 15,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/7822/front_fr.60.200.jpg'
         },
         {
-          name: 'Ferrero Rocher',
+          name: 'Sucette ghost pops',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/000/3787/front_en.52.200.jpg'
+            'https://static.openfoodfacts.org/images/products/541/137/600/3147/front_fr.4.200.jpg'
         },
         {
-          name: 'Ferrero Rocher Heart Box 4 Pack',
+          name: "Tagada l'originale",
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/021/6712/front_fr.6.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/9574/front_fr.77.200.jpg'
         }
       ],
       vitrine: [
         {
-          name: 'Ferrero Rocher Heart Box 4 Pack',
+          name: 'Dragolo',
           quantity: 48,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/021/6712/front_fr.6.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/7822/front_fr.60.200.jpg'
         },
         {
-          name: 'Chocolat Noir fourré à la liqueur',
+          name: 'Maltesers',
           quantity: 13,
           image:
-            'https://static.openfoodfacts.org/images/products/326/385/557/9214/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/500/015/943/7943/front_fr.19.200.jpg'
         }
       ]
     },
@@ -159,28 +159,22 @@ export class ProfilesService {
       collection: [],
       vitrine: [
         {
-          name: 'Ferrero Rocher Heart Box 4 Pack',
+          name: "Rotella l'original",
           quantity: 48,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/021/6712/front_fr.6.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/9635/front_fr.7.200.jpg'
         },
         {
-          name: 'Chocolat Noir fourré à la liqueur',
+          name: 'Alpin fresh',
           quantity: 13,
           image:
-            'https://static.openfoodfacts.org/images/products/326/385/557/9214/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/761/070/062/6368/front_fr.13.200.jpg'
         },
         {
-          name: 'Kit Kat',
+          name: 'Chamallows Choco',
           quantity: 56,
           image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
-        },
-        {
-          name: 'Cerise à la liqueur',
-          quantity: 46,
-          image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
         }
       ]
     },
@@ -193,52 +187,52 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'Kit Kat',
+          name: 'La Vosgienne - Sève de Pin',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
+            'https://static.openfoodfacts.org/images/products/353/828/003/6220/front_fr.12.200.jpg'
         },
         {
-          name: 'Cerise à la liqueur',
+          name: 'Trick or treat assortiment',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/842/462/100/2519/front_fr.4.200.jpg'
         },
         {
-          name: 'Ferrero Rocher',
+          name: 'Magic Mouse',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/000/3787/front_en.52.200.jpg'
+            'https://static.openfoodfacts.org/images/products/20724108/front_de.17.200.jpg'
         },
         {
-          name: 'Ferrero Rocher Heart Box 4 Pack',
+          name: 'Tic Tac Intense Mint',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/021/6712/front_fr.6.200.jpg'
+            'https://static.openfoodfacts.org/images/products/301/762/050/0060/front_fr.7.200.jpg'
         },
         {
-          name: 'Avello Rochers',
+          name: 'Bonherba',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/358/840/025/9190/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/761/016/761/6810/front_fr.15.200.jpg'
         },
         {
-          name: 'Mon cheri',
+          name: "Tagada l'original",
           quantity: 3,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/000/9574/front_fr.77.200.jpg'
         },
         {
-          name: 'Mon Chéri Stern',
+          name: 'BOO!',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/400/840/011/2428/front_fr.10.200.jpg'
+            'https://static.openfoodfacts.org/images/products/26078014/front_fr.4.200.jpg'
         },
         {
-          name: 'Chocolat Noir fourré à la liqueur',
+          name: 'Haloween Party',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/326/385/557/9214/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/23167308/front_fr.4.200.jpg'
         }
       ],
       vitrine: []
@@ -252,36 +246,36 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'Kit Kat',
-          quantity: 2,
-          image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
-        },
-        {
-          name: 'Cerise à la liqueur',
+          name: 'Mini chupa chups',
           quantity: 1,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/460/179/803/0055/front_fr.3.200.jpg'
         },
         {
-          name: 'Ferrero Rocher',
+          name: 'Bonbons au miel Myrtille Framboise',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/000/3787/front_en.52.200.jpg'
+            'https://static.openfoodfacts.org/images/products/326/362/275/9719/front_fr.4.200.jpg'
+        },
+        {
+          name: 'Bonherba',
+          quantity: 1,
+          image:
+            'https://static.openfoodfacts.org/images/products/761/016/761/6810/front_fr.15.200.jpg'
         }
       ],
       vitrine: [
         {
-          name: 'Mon cheri',
-          quantity: 67,
+          name: 'Bonherba',
+          quantity: 34,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/761/016/761/6810/front_fr.15.200.jpg'
         },
         {
-          name: 'Mon Chéri Stern',
-          quantity: 45,
+          name: 'Mini chupa chups',
+          quantity: 78,
           image:
-            'https://static.openfoodfacts.org/images/products/400/840/011/2428/front_fr.10.200.jpg'
+            'https://static.openfoodfacts.org/images/products/460/179/803/0055/front_fr.3.200.jpg'
         }
       ]
     },
@@ -294,54 +288,48 @@ export class ProfilesService {
       },
       collection: [
         {
-          name: 'Kit Kat',
+          name: 'Cerise à la liqueur',
           quantity: 3,
           image:
-            'https://static.openfoodfacts.org/images/products/761/303/502/4267/front_fr.3.200.jpg'
+            'https://static.openfoodfacts.org/images/products/26049472/front_fr.5.200.jpg'
         },
         {
-          name: 'Lindor 70% Cacao',
-          quantity: 5,
+          name: 'Bonherba',
+          quantity: 3,
           image:
-            'https://static.openfoodfacts.org/images/products/800/334/009/5370/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/761/016/761/6810/front_fr.15.200.jpg'
         },
         {
-          name: 'Cerise à la liqueur',
-          quantity: 1,
-          image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
-        },
-        {
-          name: 'Ferrero Rocher',
-          quantity: 1,
-          image:
-            'https://static.openfoodfacts.org/images/products/800/050/000/3787/front_en.52.200.jpg'
-        },
-        {
-          name: 'Avello Rochers',
+          name: 'Chamallows Choco',
           quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/358/840/025/9190/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
         },
         {
-          name: 'Grand Ferrero Rocher',
-          quantity: 4,
+          name: 'Citrouille halloween assortiment de confiseries',
+          quantity: 2,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/016/8554/front_en.23.200.jpg'
+            'https://static.openfoodfacts.org/images/products/321/547/051/6938/front_fr.4.200.jpg'
+        },
+        {
+          name: 'Guimauve',
+          quantity: 1,
+          image:
+            'https://static.openfoodfacts.org/images/products/201/995/829/9990/front_fr.16.200.jpg'
         }
       ],
       vitrine: [
         {
-          name: 'Mon cheri',
-          quantity: 45,
+          name: 'Guimauve',
+          quantity: 156,
           image:
-            'https://static.openfoodfacts.org/images/products/800/050/024/2261/front_fr.4.200.jpg'
+            'https://static.openfoodfacts.org/images/products/201/995/829/9990/front_fr.16.200.jpg'
         },
         {
-          name: 'Mon Chéri Stern',
-          quantity: 90,
+          name: 'Chamallows Choco',
+          quantity: 24,
           image:
-            'https://static.openfoodfacts.org/images/products/400/840/011/2428/front_fr.10.200.jpg'
+            'https://static.openfoodfacts.org/images/products/310/322/004/3158/front_fr.4.200.jpg'
         }
       ]
     }
