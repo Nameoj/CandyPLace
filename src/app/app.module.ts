@@ -2,9 +2,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ProfilepageComponent } from "./profilepage/profilepage.component";
-
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { CandyLogComponent } from "./candy-log/candy-log.component";

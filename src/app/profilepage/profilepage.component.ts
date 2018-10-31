@@ -13,6 +13,6 @@ export class ProfilepageComponent implements OnInit {
 
   ngOnInit() {
     this.Users = this.profilesservices.Users;
-    console.log(this.Users);
+    this.varUser = this.profilesservices.varUser;
   }
 }
