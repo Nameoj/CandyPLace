@@ -2,7 +2,7 @@
 	<div class="row">
 
 		<div class="col-12">
-			<div *ngFor="let vitrine of Users">
+			<div *ngFor="let vitrine of Users; let i = index">
 				<!-- <div class="container"> -->
 				<div class="card col-xs-3 col-sm-3 col-lg-3" style="border-radius: 20px">
 					<div class="row">
@@ -15,7 +15,7 @@
 							<!-- </div>	 -->
 							<!-- </div> -->
 
-							<div *ngFor="let bonbon of vitrine.vitrine" style="display: inline">
+							<div *ngFor="let bonbon of vitrine.vitrine; let j = index" style="display: inline">
 								<!-- <div class="col-4 full"> -->
 								<div class="container ">
 									<div class="row" style="float: left; display: block; word-wrap: break-word;">
@@ -28,6 +28,7 @@
 											<!-- <div style="display:inline-block"> -->
 											<p class="col-10" style="font-size: 0.9em; margin-right: 0"><strong>{{bonbon.name}}</strong></p>
 											<p class="col-6" style="padding: 0 auto">{{bonbon.quantity}}</p>
+											<button type="button" class="btn btn-secondary" (click)="ajouter(bonbon.image,bonbon.name,bonbon.quantity,i,j)">Get one</button>
 											<!-- </div> -->
 										</div>
 
@@ -39,8 +40,10 @@
 							<!-- <a target="_blank" href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}"><img
 								 src="../assets/marker-map.jpg"></a> -->
 
-							<a href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}" class="btn btn-warning col-6 text-center"
-							 style="margin-bottom: 10px; margin-left:24%; text-align: center;">Hunt down these Candies</a>
+							
+								<a href="https://www.google.fr/maps/place/{{vitrine.profile.adress}}" class="btn btn-warning col-6 text-center"
+								 style="margin-bottom: 10px; margin-left:24%; text-align: center;">Hunt down these candies</a>
+
 						</div>
 					</div>
 				</div>
